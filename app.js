@@ -7,6 +7,10 @@ const webdesign=document.querySelector("#one")
 const cursorImageWebdesign=document.querySelector(".cursor img")
 const overlay=document.querySelector(".cursor .overlay")
 
+//navbar
+const navbar=document.querySelector(".nav")
+const navLinks=document.querySelector(".nav-2")
+const icon=document.querySelector(".cursor i")
 
 //first header
 
@@ -31,6 +35,7 @@ function loaderAnimation(){
 loaderAnimation()
 
 main.addEventListener("mousemove",(e)=>{
+
     if(e.target===webdesign){
         webdesign.addEventListener("mouseenter",()=>{
             overlay.style.display="block"
@@ -71,6 +76,23 @@ main.addEventListener("mousemove",(e)=>{
        //  cursor.style.backgroundColor="red"
        overlay.style.display="none"
    })
+    }
+    else if(e.target===navLinks){
+        // cursor.innerHTML=`<i class="ri-arrow-right-up-line"></i>`
+navLinks.addEventListener("mouseenter",()=>{
+    icon.style.display="block"
+        gsap.to(cursor,{
+            scale:0.2,
+            // ease:"expoScale(0.5,7,none)"
+        })
+})
+navLinks.addEventListener("mouseleave",()=>{
+    icon.style.display="none"
+        gsap.to(cursor,{
+            scale:1,
+            // ease:"expoScale(0.5,7,none)"
+        })
+})
     }
     // console.log(e)
     // if(e.target===)
