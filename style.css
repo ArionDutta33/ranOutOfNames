@@ -148,12 +148,15 @@ body{
     overflow: hidden;
 }
 .cursor .overlay{
-background: rgba(192, 192, 192, 0.668);
-font-size: 1.2vw;
+background: rgba(192, 192, 192, 0.534);
+font-size: 1.5vw;
 font-family: font;
 white-space: nowrap;
 /* padding: 1vw 1vw; */
 border-radius:10px ;
-color: rgb(255, 253, 253);
+color: rgb(0, 0, 0);
+padding: 4vw;
+border-radius: 50%;
+display: none;
 }
  
