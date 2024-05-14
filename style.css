@@ -146,6 +146,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    transition: transform .2s linear;
 }
 .cursor .overlay{
 background: rgba(192, 192, 192, 0.534);
@@ -159,4 +160,11 @@ padding: 4vw;
 border-radius: 50%;
 display: none;
 }
- 
+
+    
+.cursor i{
+    align-self: center;
+    font-size: 15vw;
+    color: white;
+    display: none;
+}
