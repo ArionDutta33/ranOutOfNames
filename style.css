@@ -287,3 +287,37 @@ body {
         margin: 3vw 3vw;
     }
 }
+@media (width<576px) {
+    .nav .nav-2 {
+        display: none;
+
+        
+    } 
+    .nav .nav-2+.collapsed-menu{
+        display: block;
+        font-size: 10vw;
+    }
+    .main-content{
+        padding-top: 26vw;
+    }
+    .main-content .para-top{
+        font-size: 4vw;
+        margin-bottom: 10vw;
+    }
+    .main-content h1{
+        font-size: 14vw;
+    }
+    .main-content #two{
+        margin-bottom: 5vw;
+
+    }
+    .main-content #location {
+        font-size: 3.5vw;
+        margin-bottom: 4vw;
+    }
+    .main-content .btns button {
+        font-size: 3vw;
+        padding: 2.5vw 2.5vw;
+        margin: 3vw 3vw;
+    }
+}
