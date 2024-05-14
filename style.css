@@ -65,6 +65,10 @@ body{
     fill: rgb(0, 0, 0);
 
 }
+.page1{
+    position: relative;
+    overflow: hidden;
+}
 .main-content{
     /* background: red; */
     display: flex;
@@ -82,11 +86,12 @@ body{
 .main-content h1{
     font-size: 10vw;
     text-transform: uppercase;
-    color: white;
+    color: transparent;
     font-family: impact;
     font-weight: 100;
     margin-bottom: 1vw;
     -webkit-text-stroke: 2px black;
+    overflow: hidden;
 }
 .main-content #location{
     /* background: #000; */
@@ -112,3 +117,43 @@ body{
     background: transparent;
     color: black;
 }
+.halfpage{
+    background: #000;
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    top: 0;
+    
+}
+#second{
+    height: 50vh;
+    /* background: red; */
+    top: 50%;
+    bottom: 0;
+}
+.cursor{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: red;
+    /* background:url("https://images.unsplash.com/photo-1556347961-f9521a88cb8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWxzfGVufDB8fDB8fHww"); */
+    z-index: -99;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.cursor .overlay{
+background: rgba(192, 192, 192, 0.668);
+font-size: 1.2vw;
+font-family: font;
+white-space: nowrap;
+/* padding: 1vw 1vw; */
+border-radius:10px ;
+color: rgb(255, 253, 253);
+}
+ 
