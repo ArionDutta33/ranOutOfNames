@@ -155,7 +155,7 @@ body {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(138, 136, 136);
     /* background:url("https://images.unsplash.com/photo-1556347961-f9521a88cb8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWxzfGVufDB8fDB8fHww"); */
     z-index: -99;
     background-position: center;
@@ -198,126 +198,171 @@ body {
         /* background: red; */
 
         width: 60%;
-    } 
-    .main-content{
+    }
+
+    .main-content {
         padding-top: 5vw;
     }
-    .main-content .para-top{
+
+    .main-content .para-top {
         font-size: 2.5vw;
         margin-bottom: 5vw;
     }
-    .main-content h1{
+
+    .main-content h1 {
         font-size: 12vw;
     }
-    .main-content #two{
+
+    .main-content #two {
         margin-bottom: 2vw;
 
     }
+
     .main-content #location {
         font-size: 2.5vw;
         margin-bottom: 2vw;
     }
+
     .main-content .btns button {
         font-size: 1.5vw;
         padding: 1.2vw 1.2vw;
         margin: 2vw 2vw;
     }
+
+    .cursor {
+        height: 15vw;
+        width: 15vw;
+    }
 }
+
 @media (width<990px) {
     .nav .nav-2 {
         /* background: pink; */
 
         width: 90%;
-    } 
-    .main-content{
+    }
+
+    .main-content {
         padding-top: 8vw;
     }
-    .main-content .para-top{
+
+    .main-content .para-top {
         font-size: 4vw;
         margin-bottom: 5vw;
     }
-    .main-content h1{
+
+    .main-content h1 {
         font-size: 14vw;
     }
-    .main-content #two{
+
+    .main-content #two {
         margin-bottom: 3.5vw;
 
     }
+
     .main-content #location {
         font-size: 3.5vw;
         margin-bottom: 2vw;
     }
+
     .main-content .btns button {
         font-size: 2vw;
         padding: 2vw 2vw;
         margin: 2.2vw 2.2vw;
     }
 }
+
 @media (width<670px) {
     .nav .nav-2 {
         display: none;
 
-        
-    } 
-    .nav .nav-2+.collapsed-menu{
+
+    }
+
+    .nav .nav-2+.collapsed-menu {
         display: block;
         font-size: 10vw;
     }
-    .main-content{
+
+    .main-content {
         padding-top: 14vw;
     }
-    .main-content .para-top{
+
+    .main-content .para-top {
         font-size: 4vw;
         margin-bottom: 10vw;
     }
-    .main-content h1{
+
+    .main-content h1 {
         font-size: 14vw;
     }
-    .main-content #two{
+
+    .main-content #two {
         margin-bottom: 5vw;
 
     }
+
     .main-content #location {
         font-size: 3.5vw;
         margin-bottom: 4vw;
     }
+
     .main-content .btns button {
         font-size: 3vw;
         padding: 2.5vw 2.5vw;
         margin: 3vw 3vw;
     }
+
+    .cursor {
+        height: 13vw;
+        width: 13vw;
+    }
 }
+
 @media (width<576px) {
     .nav .nav-2 {
         display: none;
 
-        
-    } 
-    .nav .nav-2+.collapsed-menu{
+
+    }
+
+    .nav .nav-2+.collapsed-menu {
         display: block;
         font-size: 10vw;
     }
-    .main-content{
-        padding-top: 26vw;
+
+    .main-content {
+        padding-top: 30vw;
+        /* background: red; */
     }
-    .main-content .para-top{
-        font-size: 4vw;
-        margin-bottom: 10vw;
+
+    .main-content .para-top {
+        font-size: 8vw;
+        text-align: center;
+        margin-bottom: 14vw;
     }
-    .main-content h1{
-        font-size: 14vw;
+
+    .main-content h1 {
+        font-size: 15.5vw;
+        text-align: center;
     }
-    .main-content #two{
-        margin-bottom: 5vw;
+
+    .main-content #two {
+        margin-bottom: 6vw;
 
     }
+
     .main-content #location {
-        font-size: 3.5vw;
+        font-size: 5.9vw;
         margin-bottom: 4vw;
     }
+
     .main-content .btns button {
-        font-size: 3vw;
-        padding: 2.5vw 2.5vw;
+        font-size: 5vw;
+        padding: 3vw 3.5vw;
         margin: 3vw 3vw;
+        display: flex;
+        flex-direction: column;
+
     }
 }
